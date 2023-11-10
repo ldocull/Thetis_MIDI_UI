@@ -11,7 +11,7 @@ The encoders and buttons were attached to the Teensy directly with wire-wrap wir
 
 There is a STL file in the files-section for a replacement bottom cover that accomodates the modifications and hide the bird's-nest of wiring.
 
-The setup file (WR9R-MIDI.m2c) can be imported into the MIDI setting of Thetis. Adding / moving/ changing functions of the keys and knpbs is a snap. The large-wheel was setup special for VFO and has a hard-coded incremental setup which is tied to 'enc1'.
+The setup file (WR9R-MIDI.m2c) can be imported into the MIDI setting of Thetis. Adding / moving/ changing functions of the keys and knobs is a snap. The large-wheel was configured specifically for VFO and has a hard-coded incremental setup which is tied to 'enc1'.
 
 Hope you found this interesting!
 
