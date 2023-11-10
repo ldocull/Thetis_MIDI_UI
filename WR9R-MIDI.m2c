@@ -1,0 +1,195 @@
+<?xml version="1.0" standalone="yes"?>
+<ExportMidi2Cat>
+  <xs:schema id="ExportMidi2Cat" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="ExportMidi2Cat" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="WR9R_x0020_Teeny_x0020_1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MidiControlId" type="xs:int" />
+                <xs:element name="MidiControlName" type="xs:string" minOccurs="0" />
+                <xs:element name="MidiControlType" type="xs:int" minOccurs="0" />
+                <xs:element name="MinValue" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxValue" type="xs:int" minOccurs="0" />
+                <xs:element name="CatCmdId" type="xs:int" minOccurs="0" />
+                <xs:element name="MidiOutCmdDown" type="xs:string" minOccurs="0" />
+                <xs:element name="MidiOutCmdUp" type="xs:string" minOccurs="0" />
+                <xs:element name="MidiOutCmdSetValue" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//WR9R_x0020_Teeny_x0020_1" />
+        <xs:field xpath="MidiControlId" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <WR9R_x0020_Teeny_x0020_1>
+    <MidiControlId>63</MidiControlId>
+    <MidiControlName>KNOB1</MidiControlName>
+    <MidiControlType>1</MidiControlType>
+    <MinValue>0</MinValue>
+    <MaxValue>127</MaxValue>
+    <CatCmdId>15</CatCmdId>
+    <MidiOutCmdDown />
+    <MidiOutCmdUp />
+    <MidiOutCmdSetValue />
+  </WR9R_x0020_Teeny_x0020_1>
+  <WR9R_x0020_Teeny_x0020_1>
+    <MidiControlId>62</MidiControlId>
+    <MidiControlName>KNOB2</MidiControlName>
+    <MidiControlType>1</MidiControlType>
+    <MinValue>0</MinValue>
+    <MaxValue>127</MaxValue>
+    <CatCmdId>6</CatCmdId>
+    <MidiOutCmdDown />
+    <MidiOutCmdUp />
+    <MidiOutCmdSetValue />
+  </WR9R_x0020_Teeny_x0020_1>
+  <WR9R_x0020_Teeny_x0020_1>
+    <MidiControlId>61</MidiControlId>
+    <MidiControlName>KNOB3</MidiControlName>
+    <MidiControlType>1</MidiControlType>
+    <MinValue>0</MinValue>
+    <MaxValue>127</MaxValue>
+    <CatCmdId>254</CatCmdId>
+    <MidiOutCmdDown />
+    <MidiOutCmdUp />
+    <MidiOutCmdSetValue />
+  </WR9R_x0020_Teeny_x0020_1>
+  <WR9R_x0020_Teeny_x0020_1>
+    <MidiControlId>51</MidiControlId>
+    <MidiControlName>Button3</MidiControlName>
+    <MidiControlType>1</MidiControlType>
+    <MinValue>0</MinValue>
+    <MaxValue>127</MaxValue>
+    <CatCmdId>5</CatCmdId>
+    <MidiOutCmdDown />
+    <MidiOutCmdUp />
+    <MidiOutCmdSetValue />
+  </WR9R_x0020_Teeny_x0020_1>
+  <WR9R_x0020_Teeny_x0020_1>
+    <MidiControlId>58</MidiControlId>
+    <MidiControlName>Button4</MidiControlName>
+    <MidiControlType>1</MidiControlType>
+    <MinValue>0</MinValue>
+    <MaxValue>127</MaxValue>
+    <CatCmdId>508</CatCmdId>
+    <MidiOutCmdDown />
+    <MidiOutCmdUp />
+    <MidiOutCmdSetValue />
+  </WR9R_x0020_Teeny_x0020_1>
+  <WR9R_x0020_Teeny_x0020_1>
+    <MidiControlId>55</MidiControlId>
+    <MidiControlName>Button5</MidiControlName>
+    <MidiControlType>1</MidiControlType>
+    <MinValue>0</MinValue>
+    <MaxValue>127</MaxValue>
+    <CatCmdId>504</CatCmdId>
+    <MidiOutCmdDown />
+    <MidiOutCmdUp />
+    <MidiOutCmdSetValue />
+  </WR9R_x0020_Teeny_x0020_1>
+  <WR9R_x0020_Teeny_x0020_1>
+    <MidiControlId>52</MidiControlId>
+    <MidiControlName>Button6</MidiControlName>
+    <MidiControlType>1</MidiControlType>
+    <MinValue>0</MinValue>
+    <MaxValue>127</MaxValue>
+    <CatCmdId>503</CatCmdId>
+    <MidiOutCmdDown />
+    <MidiOutCmdUp />
+    <MidiOutCmdSetValue />
+  </WR9R_x0020_Teeny_x0020_1>
+  <WR9R_x0020_Teeny_x0020_1>
+    <MidiControlId>59</MidiControlId>
+    <MidiControlName>Button7</MidiControlName>
+    <MidiControlType>1</MidiControlType>
+    <MinValue>0</MinValue>
+    <MaxValue>127</MaxValue>
+    <CatCmdId>73</CatCmdId>
+    <MidiOutCmdDown />
+    <MidiOutCmdUp />
+    <MidiOutCmdSetValue />
+  </WR9R_x0020_Teeny_x0020_1>
+  <WR9R_x0020_Teeny_x0020_1>
+    <MidiControlId>56</MidiControlId>
+    <MidiControlName>Button8</MidiControlName>
+    <MidiControlType>1</MidiControlType>
+    <MinValue>0</MinValue>
+    <MaxValue>127</MaxValue>
+    <CatCmdId>54</CatCmdId>
+    <MidiOutCmdDown />
+    <MidiOutCmdUp />
+    <MidiOutCmdSetValue />
+  </WR9R_x0020_Teeny_x0020_1>
+  <WR9R_x0020_Teeny_x0020_1>
+    <MidiControlId>53</MidiControlId>
+    <MidiControlName>Button9</MidiControlName>
+    <MidiControlType>1</MidiControlType>
+    <MinValue>0</MinValue>
+    <MaxValue>127</MaxValue>
+    <CatCmdId>53</CatCmdId>
+    <MidiOutCmdDown />
+    <MidiOutCmdUp />
+    <MidiOutCmdSetValue />
+  </WR9R_x0020_Teeny_x0020_1>
+  <WR9R_x0020_Teeny_x0020_1>
+    <MidiControlId>26</MidiControlId>
+    <MidiControlName>ENC1</MidiControlName>
+    <MidiControlType>4</MidiControlType>
+    <MinValue>1</MinValue>
+    <MaxValue>25</MaxValue>
+    <CatCmdId>209</CatCmdId>
+    <MidiOutCmdDown />
+    <MidiOutCmdUp />
+    <MidiOutCmdSetValue />
+  </WR9R_x0020_Teeny_x0020_1>
+  <WR9R_x0020_Teeny_x0020_1>
+    <MidiControlId>25</MidiControlId>
+    <MidiControlName>ENC2</MidiControlName>
+    <MidiControlType>4</MidiControlType>
+    <MinValue>0</MinValue>
+    <MaxValue>127</MaxValue>
+    <CatCmdId>204</CatCmdId>
+    <MidiOutCmdDown />
+    <MidiOutCmdUp />
+    <MidiOutCmdSetValue />
+  </WR9R_x0020_Teeny_x0020_1>
+  <WR9R_x0020_Teeny_x0020_1>
+    <MidiControlId>24</MidiControlId>
+    <MidiControlName>WHEEL</MidiControlName>
+    <MidiControlType>5</MidiControlType>
+    <MinValue>1</MinValue>
+    <MaxValue>127</MaxValue>
+    <CatCmdId>101</CatCmdId>
+    <MidiOutCmdDown />
+    <MidiOutCmdUp />
+    <MidiOutCmdSetValue />
+  </WR9R_x0020_Teeny_x0020_1>
+  <WR9R_x0020_Teeny_x0020_1>
+    <MidiControlId>57</MidiControlId>
+    <MidiControlName>TnDN</MidiControlName>
+    <MidiControlType>1</MidiControlType>
+    <MinValue>0</MinValue>
+    <MaxValue>127</MaxValue>
+    <CatCmdId>27</CatCmdId>
+    <MidiOutCmdDown />
+    <MidiOutCmdUp />
+    <MidiOutCmdSetValue />
+  </WR9R_x0020_Teeny_x0020_1>
+  <WR9R_x0020_Teeny_x0020_1>
+    <MidiControlId>54</MidiControlId>
+    <MidiControlName>TnUP</MidiControlName>
+    <MidiControlType>1</MidiControlType>
+    <MinValue>0</MinValue>
+    <MaxValue>127</MaxValue>
+    <CatCmdId>26</CatCmdId>
+    <MidiOutCmdDown />
+    <MidiOutCmdUp />
+    <MidiOutCmdSetValue />
+  </WR9R_x0020_Teeny_x0020_1>
+</ExportMidi2Cat>
